@@ -6,16 +6,18 @@ import Features from './components/Features';
 import Download from './components/Download';
 import FAQ from './components/FAQ';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-Poppins">
+    <div className="font-Poppins overflow-hidden">
       <Header/>
       <Hero />
       <Features />
       <Download />
       <FAQ />
       <ContactUs />
+      <Footer />
     </div>
   );
 }
